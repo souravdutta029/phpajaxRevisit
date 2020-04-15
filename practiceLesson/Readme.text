@@ -1,0 +1,22 @@
+AJAX : 
+Ajax : Asychronous Javascript and XML.
+			=>	It is Simple Technique to create fast and dynamic web pages.
+			=>	Content loads itself without refreshing the whole web page.
+
+Ajax Syntax :
+	
+	$.ajax({
+		// attributes
+		url  	: "file.php",
+		type 	: "POST/GET",  // GET is Bydefault no need to writing it.
+		data 	: String / Array / Object,
+		success : function(data){
+		
+		}
+	}); 
+
+	CRUD Operation Using AJAX:
+		1. Show.
+		2. Insert.
+		3. Delete.
+		4. 

@@ -1,0 +1,118 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.table{
+	width: 960px;
+	text-align: center;
+	margin: 0 auto;
+}
+#header{
+	background: #FF9F33;
+}
+
+/* css for add-data */
+.addheader{
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+	background: #F79906;
+	padding: 10px;
+}
+
+#search-box{
+	float: right;
+	padding: 10px 20px 0;
+	margin-top: 5px;
+}
+.formclass{
+	width: 960px;
+	margin: 0 auto;
+	background: #06F7CC;
+	padding: 20px;
+}
+.formclass #first-name{
+	padding-right: 20px;
+	margin-left: 10px;
+	font-size: 20px;
+}
+.formclass #last-name{
+	padding-right: 20px;
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+#success-message{
+	background: #DEF1D8;
+	color: green;
+	padding: 10px;
+	margin: 10px;
+	display: none;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+}
+
+#error-message{
+	background: #EFDCDD;
+	color: red;
+	padding: 10px;
+	margin: 10px;
+	display: none;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+}
+.btn-danger, .btn-success{
+	padding: 4px 10px ; 
+}
+#modal{
+	background: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	display: none;
+}
+#modal-form{
+	background: #fff;
+	width: 40%;
+	position: relative;
+	top: 20%;
+	left: calc(50% - 20%);
+	padding: 15px;
+	border-radius: 4px;
+}
+#modal-form h2{
+	margin: 0 0 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000;
+}
+#close-btn{
+	background: red;
+	color: white;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 50px;
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	cursor: pointer;
+}
+#pagination a{
+  background: #2980b9;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding:5px 10px;
+  margin-right: 5px;
+  border-radius: 3px;
+}
+#pagination a.active{
+  background: #27ae60;
+}
